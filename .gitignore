@@ -16,7 +16,6 @@
 
 # Package Files #
 *.jar
-!gradle-wrapper.jar
 *.war
 *.nar
 *.ear
@@ -39,7 +38,6 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-.gradle
 build/
 develop-eggs/
 dist/
@@ -201,7 +199,6 @@ poetry.toml
 pyrightconfig.json
 
 ### VisualStudioCode ###
-.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -221,3 +218,9 @@ pyrightconfig.json
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/java,python,visualstudiocode
+
+HELP.md
+.gradle
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
